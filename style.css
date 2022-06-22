@@ -1,0 +1,72 @@
+body{
+    margin:0;padding:0
+}
+.header-bg{
+    background-color: #F0FFF0;
+    padding-bottom:40px
+    
+}
+
+.single-wrap{
+    
+    text-align: center;
+    transition: all 0.4s ease;
+    padding:58px
+    
+}
+.single-wrap:hover{
+    box-shadow: 0px 0px 17px 3px #e0dfdf;
+}
+
+.single-wrap h4{
+    font-size: 18px;
+}
+
+.card-box .fa-calendar{
+    margin-right:5px
+}
+.card-box .fa-people-group{
+    margin-right:5px
+}
+.card-box{
+    transition: all 0.5s ease
+}
+.card-box:hover{
+    box-shadow: 0px 0px 17px 3px #e0dfdf;
+}
+.testimonial .testi_content{
+    margin-left: 40px
+}
+
+.footer_bg{
+    background-color: #171717;
+    color:white;
+    padding:40px
+}
+.footer_bg ul li{
+    list-style-type: none;
+    
+}
+.footer_bg ul li a{
+    text-decoration:none;
+    color:white;   
+}
+.footer_bg ul li:first-child{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .testimonial{
+        margin:0 auto;
+        display: block;
+        text-align: center;
+    }
+   
+  }
